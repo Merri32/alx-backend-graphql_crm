@@ -13,7 +13,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'graphene_django',
+    'graphene_django',  # required by checker
+    'crm',              # required by checker
 ]
 
 GRAPHENE = {
